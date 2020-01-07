@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Calculadora</title>
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	</head>
+
+	<body>
+		
+		<div class="container">
+			<div class="text-center">
+				<h3> Calculadora </h3>
+			</div>
+			<div class="accordion" id="accordionExample">
+			  <div class="card">
+			    <div class="card-header" id="headingOne">
+			      <h2 class="mb-0">
+			        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			          Produccion Miniclavel
+			        </button>
+			      </h2>
+			    </div>
+
+			    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+			      <div class="card-body">
+			        <form>
+			        	<div class="form-group">
+			        	 <input type="text" class="form-control" id="a" placeholder="Tabacos (40) Procesados">
+					    </div>
+
+					    <div class="form-group">
+			        	 <input type="text" class="form-control" id="b" placeholder="Tabacos (40) no Procesados">
+					    </div>
+			        	
+			        	<div class="form-group">
+			        	 <input type="text" class="form-control" id="c" placeholder="Tabacos (70) Procesados">
+					    </div>
+
+					    <div class="form-group">
+			           	  <input type="text" class="form-control" id="d" placeholder="Tabacos (70) no Procesados">
+					    </div>
+			        	
+			        	<div class="form-group">
+			           	  <input type="text" class="form-control" id="e" placeholder="cant. tallos reprocesados">
+					    </div>
+			        	
+					    <div class="form-group">
+			           	  <input type="text" class="form-control" id="hi" placeholder="Hora inicio de labores">
+					    </div>
+
+					    <div class="form-group">
+			           	  <input type="text" class="form-control" id="hf" placeholder="Hora medicion de labores">
+					    </div>
+			        	
+			        	<div class="form-group">
+			           	  <input type="text" class="form-control" id="mini" placeholder="Minutos inicio de labores">
+					    </div>
+			        	
+			        	<div class="form-group">
+			           	  <input type="text" class="form-control" id="minf" placeholder="Minutos medicion de labores">
+					    </div>
+
+			        	<div class="text-center">
+					    	<input type="button" onclick="produccion_miniclavel()" value="Calcular">
+					    </div>
+			        </form>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="card">
+			    <div class="card-header" id="headingTwo">
+			      <h2 class="mb-0">
+			        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			          Produccion Rosas
+			        </button>
+			      </h2>
+			    </div>
+			    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+			      <div class="card-body">
+			        <form>
+			        	<div class="form-group">
+			        	 <input type="text" class="form-control" id="a1" placeholder="Tabacos (40) Procesados">
+					    </div>
+
+					    <div class="form-group">
+			        	 <input type="text" class="form-control" id="b1" placeholder="Tabacos (40) no Procesados">
+					    </div>
+			        	
+			        	<div class="form-group">
+			        	 <input type="text" class="form-control" id="c1" placeholder="Tabacos (48) Procesados">
+					    </div>
+
+					    <div class="form-group">
+			           	  <input type="text" class="form-control" id="d1" placeholder="Tabacos (48) no Procesados">
+					    </div>
+			        	
+			        	<div class="form-group">
+			           	  <input type="text" class="form-control" id="e1" placeholder="cant. tallos reprocesados">
+					    </div>
+			        	
+					    <div class="form-group">
+			           	  <input type="text" class="form-control" id="hi1" placeholder="Hora inicio de labores">
+					    </div>
+
+					    <div class="form-group">
+			           	  <input type="text" class="form-control" id="hf1" placeholder="Hora medicion de labores">
+					    </div>
+			        	
+			        	<div class="form-group">
+			           	  <input type="text" class="form-control" id="mini1" placeholder="Minutos inicio de labores">
+					    </div>
+			        	
+			        	<div class="form-group">
+			           	  <input type="text" class="form-control" id="minf1" placeholder="Minutos medicion de labores">
+					    </div>
+
+					    <div class="text-center">
+					    	<input type="button" onclick="produccion_rosas()" value="Calcular">
+					    </div>
+					    			        	
+			        </form>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript" src="calculadora.js"></script>
+	</body>
+
+</html> 
