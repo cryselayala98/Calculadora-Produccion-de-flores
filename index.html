@@ -4,9 +4,10 @@
 		<meta charset="UTF-8">
 		<title>Calculadora</title>
 		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="mensaje.css">
 	</head>
 
-	<body>
+	<body  onload="preguntarPorHielo()">
 		
 		<div class="container">
 			<div class="text-center">
@@ -131,6 +132,19 @@
 		<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 		<script type="text/javascript" src="calculadora.js"></script>
+
+		<script type="text/javascript" src="mensaje.js"></script>
+		<script type="text/javascript" >
+			function preguntarPorHielo() {
+				var msg = {
+			        tipo: "info",
+			        titulo: "¡Weeeeeeeeeeenaaaaaaaaaaas! ",
+			        cuerpo: "¿Tienen hielo?",
+			        avatar: "gatoMistico.png"
+			    };
+			    mostrarMensajito(msg);
+			}
+		</script>
 	</body>
 
 </html> 

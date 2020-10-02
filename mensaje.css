@@ -1,0 +1,39 @@
+/*---------------------------Mensaje alert*/
+
+/*----- backgrounds
+	rojo = #dc3545
+	naranja = #fd7e14
+	amarillo = #ffc107
+	verde = #28a745
+	cian "info" = #17a2b8
+	azul "primary" = #007bff
+	indigo = #6610f2
+	gris ocuro "dark" = #343a40
+*/
+.mensaje{
+	opacity: 0;
+	position: absolute;	
+	top: 20px;
+	right: 20px;	
+	max-width: 30%;
+	z-index: 5;	
+	box-shadow: 0 0 25px #fff;	
+
+	-webkit-transition: opacity 2s linear;
+	-moz-transition: opacity 2s linear;
+	-o-transition: opacity 2s linear;
+  	transition: opacity 2s linear;	
+}
+
+.mensaje-avatar{
+	width: 125px;
+	height: 100%;
+}
+.box {
+   display: flex;
+   align-items:center;
+   padding: 15px;
+}
+.align-der{
+	text-align: right;        
+}
